@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #180101;
+  background-image:url(music-musical-instrument-guitar-two-dark-background.jpg);
+  background-size: 1700px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 80px left;
+  text-align: left;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+h1, h2 {
+  color: #ddece9;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  cursor: pointer;
+  background: #333;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+li:hover {
+  background: #444;
+}
+
+.player {
+  margin-bottom: 30px;
+}
+
+.controls button {
+  margin: 10px;
+  padding: 10px 20px;
+  background: #00ffcc;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
